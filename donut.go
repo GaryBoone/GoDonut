@@ -6,6 +6,9 @@
 // original:
 // http://www.a1k0n.net/2011/07/20/donut-math.html
 //
+// To run:
+//    $ go run donut.go
+//
 // Author:      gary.boone@gmail.com
 // History:     20121012      • initial version
 //
@@ -123,6 +126,7 @@ func (screen *Screen) computeFrame(A, B, K1 float64) {
 	}
 }
 
+// return the min of two uint16 and convert to int
 func min(x, y uint16) int {
 	if x < y {
 		return int(x)
