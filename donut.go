@@ -11,7 +11,7 @@
 //
 // Author:      gary.boone@gmail.com
 // History:     20121012      • initial version
-//
+//              20121013      • upload to GitHub
 // 
 
 package main
