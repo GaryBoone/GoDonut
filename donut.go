@@ -3,16 +3,18 @@
 //
 // An implementation in Go of Andy Sloan's donut.c
 // 
-// original:
+// Original:
 // http://www.a1k0n.net/2011/07/20/donut-math.html
 //
 // To run:
-//    $ go run donut.go
+//    $ go mod init github.com/GaryBoone/GoDonut
+//    $ go mod tidy
+//    $ go run .
 //
 // Author:      gary.boone@gmail.com
 // History:     20121012      • initial version
 //              20121013      • upload to GitHub
-// 
+//              20240322 	  • update run directions for Go 1.122.1
 
 package main
 
